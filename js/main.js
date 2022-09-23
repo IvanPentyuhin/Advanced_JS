@@ -1,10 +1,34 @@
 class Cart{
-    constructor(title, price, quantity){
-        this.title = title;
-        this.price = price;
-        this.quantity = quantity;
+    constructor(){
+        this.addItem();
+        this.delItem();
+        this.updateItem();
+        this.showCart();
+
     }
 
+    addItem(){
+
+    }
+
+    delItem(){
+
+    }
+
+    updateItem(){
+
+    }
+
+    showCart(){
+
+    }
+
+}
+
+class ProductCart{
+    updateQuantity(){
+        
+    }
 }
 
 
