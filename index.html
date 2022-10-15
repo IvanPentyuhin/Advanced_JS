@@ -8,22 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!-- Подключаем CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Кодировка страницы -->
     <meta charset="UTF-8">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
+    <header>
+        <div class="logo">MyShop</div>
+        <div class="cart">
+            <form action="#" class="search-form">
+                <input type="text" class="search-field">
+                <button class="btn-search" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
             <button class="btn-cart" type="button">Корзина</button>
-        </header>
-        <main class="main">
-            <div class="products"></div>
-            <div class="products-cart"></div>
-        </main>
-    </div>
+            <div class="cart-block invisible"></div>
+        </div>
+    </header>
+    <main>
+        <div class="products"></div>
+    </main>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>
